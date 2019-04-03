@@ -1,0 +1,10 @@
+//编写一个单列
+public  class listinfo(){
+public static listinfo li;
+public static listinfo show(){
+if(li==null){
+li=new listinfo();
+}
+return li;
+}
+}
